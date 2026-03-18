@@ -1,7 +1,7 @@
 SetFactory("OpenCASCADE"); // OpenCASCADE kernel
 
-channel_length   = 2e-5; // Channel length
-extension_length = 4e-6; // Source/drain extensions
+channel_length   = 5e-5; // Channel length
+extension_length = 2e-6; // Source/drain extensions
 bulk_height      = 5e-5; // Bulk depth
 oxide_thickness  = 1e-6; // Gate oxide thickness
 source_contact   = 1e-5; // Source width

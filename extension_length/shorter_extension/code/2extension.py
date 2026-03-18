@@ -57,8 +57,8 @@ device = "mos2d" # Define device name
 # DEVICE STRUCTURE PARAMETERS (Geometric Dimensions)
 #==================================================================================
 
-channel_length = 2e-5       # Channel length
-extension_length = 4e-6     # S/D extension length
+channel_length = 5e-5       # Channel length
+extension_length = 2e-6     # S/D extension length
 bulk_height = 5e-5          # Bulk depth
 oxide_thickness = 1e-6      # Oxide thickness
 source_contact = 1e-5       # Source contact width
@@ -73,7 +73,7 @@ device_width_z = 10e-4       # Z-depth for scaling (cm)
 # MESH IMPORT AND REGION/CONTACT DEFINITION
 #==================================================================================
 
-create_gmsh_mesh(file="2channel.msh", mesh="mos2d") # Load mesh file
+create_gmsh_mesh(file="2extension.msh", mesh="mos2d") # Load mesh file
 
 add_gmsh_region(mesh="mos2d", gmsh_name="bulk", region="bulk", material="Silicon") # Define Si region
 add_gmsh_region(mesh="mos2d", gmsh_name="oxide", region="oxide", material="Oxide") # Define Ox region
