@@ -2,7 +2,7 @@ SetFactory("OpenCASCADE"); // OpenCASCADE kernel
 
 channel_length = 2e-6;
 extension_length = 2e-6;	
-bulk_height = 2e-5;
+bulk_height = 5e-5;
 oxide_thickness = 2e-7;	
 source_contact = 4e-6;
 drain_contact = 4e-6;
